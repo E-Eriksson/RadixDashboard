@@ -1,0 +1,117 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.Card {
+  margin: 0px 0px 15px 15px;
+  box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  width: 600px;
+}
+
+.Icons {
+  height: 15px;
+}
+
+.Wrapper {
+  flex: 1;
+  border: solid;
+  border-radius: 15px;
+  border-color: rgb(215, 215, 215);
+  border-width: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.TextAndIconWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.StatisticsWrapper {
+  border: solid;
+  border-color: black;
+}
+
+.Overview {
+  display: flex;
+  font-size: medium;
+  margin: 20px 20px;
+}
+
+.SmallHeading {
+  color: black;
+  font-weight: 500;
+}
+
+.MiddleText {
+  font-size: x-large;
+  font-weight: 800;
+}
+
+.SmallestText {
+  color: gray;
+  font-size: small;
+}
+
+.Topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.WrapAll {
+  display: flex;
+}
+
+.TableContainer {
+  margin-bottom: 10px;
+}
+
+.TableContainer {
+  border: solid;
+  border-radius: 15px;
+  border-color: rgb(215, 215, 215);
+  border-width: 1px;
+  box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  padding: 0px 20px 0px 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.TitleAndDescriptionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0px 20px 0px;
+}
+
+.RecentSales {
+  font-weight: 900;
+}
+
+.SalesText {
+  color: gray;
+}
+
+.Avatars {
+  width: 40px;
+  height: auto;
+}
