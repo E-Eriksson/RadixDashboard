@@ -1,16 +1,12 @@
-import { useState } from "react";
 import "./App.css";
 import { Overview } from "./overview";
 import {
   Text,
   Tabs,
   Box,
-  Popover,
   Button,
   Flex,
   Avatar,
-  TextArea,
-  Checkbox,
   Card,
   Table,
   DropdownMenu,
@@ -30,7 +26,7 @@ function App() {
               <Select.Trigger />
               <Select.Content color="gray" position="popper">
                 <Select.Item disabled>
-                  <TextField.Root placeholder="Search the docs…">
+                  <TextField.Root placeholder="Search team">
                     <TextField.Slot>
                       <MagnifyingGlassIcon height="16" width="16" />
                     </TextField.Slot>
